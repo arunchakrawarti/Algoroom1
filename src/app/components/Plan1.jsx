@@ -5,7 +5,7 @@ const Plan1 = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-10 lg:px-20 mt-10">
       
-      <div className="bg-amber-900 rounded-2xl shadow-lg p-6 flex flex-col items-center text-white">
+      <div className="bg-gray-100 rounded-2xl shadow-lg p-6 flex flex-col items-center text-gray-700">
         <h1 className="text-2xl font-bold">FREE</h1>
         <img
           src="https://algorooms.com/images/by3.svg"
@@ -30,7 +30,7 @@ const Plan1 = () => {
       </div>
 
       
-      <div className="bg-amber-900 rounded-2xl shadow-lg p-6 flex flex-col items-center text-white">
+      <div className="bg-gray-100 rounded-2xl shadow-lg p-6 flex flex-col items-center text-gray-700">
         <h1 className="text-2xl font-bold">Unlimited Plan</h1>
         <img
           src="https://algorooms.com/images/by2.svg"
@@ -55,7 +55,7 @@ const Plan1 = () => {
       </div>
 
       
-      <div className="bg-amber-900 rounded-2xl shadow-lg p-6 flex flex-col items-center text-white">
+      <div className="bg-gray-100 rounded-2xl shadow-lg p-6 flex flex-col items-center text-gray-700">
         <h1 className="text-2xl font-bold">Limited Plan</h1>
         <img
           src="https://algorooms.com/images/b1y.svg"

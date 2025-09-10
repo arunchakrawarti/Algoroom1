@@ -2,7 +2,7 @@ import React from "react";
 
 const Figure = () => {
   return (
-    <div className="bg-red-200 px-6 py-8 flex flex-wrap justify-evenly items-center gap-4">
+    <div className="px-6 py-8 flex flex-wrap justify-evenly items-center gap-4">
       <img
         src="https://algorooms.com/svgs/icon-card-1.svg"
         alt=""
