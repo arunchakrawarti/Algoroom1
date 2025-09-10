@@ -26,7 +26,7 @@ body {
 }
 
 
-@keyframes scaleLeftToRight {
+/* @keyframes scaleLeftToRight {
   0% {
     transform: scaleX(0);
     transform-origin: left;
@@ -41,4 +41,4 @@ body {
 
 .animate-scale-lr {
   animation: scaleLeftToRight 0.8s ease-out forwards;
-}
+} */
