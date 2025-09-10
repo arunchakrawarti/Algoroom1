@@ -27,28 +27,30 @@ const Contact = () => {
           
           <label className="text-lg font-medium">Name</label>
           <input
-            className="w-full sm:w-80 h-10 mt-2 mb-4 px-3 rounded-md"
+            className="w-full sm:w-80 h-10 mt-2 mb-4 px-3 bg-white rounded-md"
             type="text"
             placeholder="Enter your name"
           />
 
           <label className="text-lg font-medium">Email</label>
           <input
-            className="w-full sm:w-80 h-10 mt-2 mb-4 px-3 rounded-md"
+            className="w-full sm:w-80 h-10 mt-2 mb-4 px-3 bg-white rounded-md"
             type="email"
             placeholder="Enter your email"
           />
 
           <label className="text-lg font-medium">Message</label>
           <textarea
-            className="w-full sm:w-80 mt-2 mb-4 px-3 py-2 rounded-md border-2 resize-none"
+            className="w-full sm:w-80 mt-2 mb-4 px-3 py-2 bg-white rounded-md  resize-none"
             rows="5"
             placeholder="Type your message..."
           ></textarea>
 
-          <button className="w-full sm:w-auto bg-amber-200 hover:bg-green-300 hover:text-white text-lg px-6 py-2 rounded-2xl transition">
+          <button className="bg-amber-200 hover:bg-green-300 hover:text-white text-lg px-8 py-2 rounded-2xl transition w-auto">
             Send Message Now
           </button>
+         
+
         </div>
       </div>
     </section>
